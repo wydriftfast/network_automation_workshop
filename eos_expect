@@ -1,0 +1,5 @@
+#!/usr/bin/expect
+
+spawn ssh 172.20.20.11
+expect "Password:"
+send "admin"
